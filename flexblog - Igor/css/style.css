@@ -1,3 +1,92 @@
+*{
+    box-sizing: border-box;
+}
+
+body, h1, h2, p, ul, li, a {
+    margin: 0px;
+    padding: 0px;
+}
+
+
 body{
-    font-family: 'Nunito' sans-serif;
+    font-family: "Nunito", Arial, Helvetica, sans-serif;
+    color: #222222;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+.superinfo-bg{
+    background-color: #122ab2;
+    color: white;
+}
+
+.superinfo{
+    max-width: 960px;
+    margin: 0 auto;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.superinfo a, .superinfo p{
+    margin: 0 10px 10px 10px;
+}
+
+.superinfo a{
+    color: white;
+}
+
+
+.menu-bg{
+    background-color: #2c70ff;
+}
+
+.menu{
+
+    max-width: 960px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    margin: 0 auto;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.menu a{
+    color: white;
+}
+
+.menu-logo{
+    margin: 0 10px;
+    font-size: 2.24em;
+    font-weight: bold;
+}
+
+.menu-nav ul{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+.menu-nav a {
+    font-size: 1.21em;
+    display: block;
+    padding: 10px;
+}
+
+.menu-nav a:hover{
+    color: teal;
 }
