@@ -88,9 +88,6 @@ img{
 }
 
 .menu-nav a:hover{
-<<<<<<< Updated upstream
-    color: teal;
-=======
     color: black;
 }
 
@@ -315,5 +312,4 @@ img{
     height: 30px;
     margin-right: 8px;
     background-color: blue;
->>>>>>> Stashed changes
 }
