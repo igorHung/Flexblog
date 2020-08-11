@@ -88,6 +88,7 @@ img{
 }
 
 .menu-nav a:hover{
+
     color: black;
 }
 
@@ -310,4 +311,5 @@ img{
     height: 30px;
     margin-right: 8px;
     background-color: blue;
+
 }
