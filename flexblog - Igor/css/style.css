@@ -278,3 +278,38 @@ img{
 
     }
 }
+
+
+.qualidade{
+
+    max-width: 960px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 60px auto;
+
+}
+
+
+.qualidade-item{
+
+    flex: 1 1 300px;
+    margin: 20px 10px;
+    
+}
+
+.qualidade-item h2{
+
+    font-size: 2em;
+    color: gray;
+    margin-bottom: 10px;
+}
+
+.qualidade-item h2::before{
+
+    content: '';
+    display: inline-block;
+    width: 7px;
+    height: 30px;
+    margin-right: 8px;
+    background-color: blue;
+}
